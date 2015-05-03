@@ -69,9 +69,17 @@
     <string name="short_cut_download_gapps_title">G Apps</string>
     <string name="short_cut_download_gapps_summary">Télécharger les dernières G Apps</string>
 
+    <!-- URL's -->
+    <string name="download_url">http://zephik.com</string>
+    <string name="changelog_url">https://docs.google.com/document/d/1c7wNrT0khaipv-M0Z35OPQ8sxPHO-e9-Rk945fo4iJE</string>
+    <string name="xda_url">http://forum.xda-developers.com/nexus-6/development/rom-chroma-01-11-2015-t3000003/</string>
+    <string name="gapps_url">http://fitsnugly.euroskank.com/?rom=banks&amp;device=gapps</string>
+	
+    <!-- Update checker -->
+    <string name="xml_url_kitkat">http://zephik.com/ota/ota_file.xml</string>
+    <string name="notification_message">Une mise à jour est disponible</string>
+	
     <!-- About -->
-    <string name="googleplus_title">Google +</string>
-    <string name="googleplus_summary">Visiter la communauté Google +</string>
     <string name="xda_title">XDA</string>
     <string name="xda_summary">Visiter le sujet sur XDA</string>
     <string name="about_title">À propos</string>
@@ -79,22 +87,19 @@
     <string name="website_title">Site Web</string>
     <string name="website_summary">Trouvez ici toutes les dernières nouvelles</string>
     <string name="donate_title">Faire un don</string>
-    <string name="donate_summary">Faire un don</string>
-    <string name="source_title">Source</string>
-    <string name="source_summary">github.com/euphoria-os</string>
-    <string name="center_summary"><b>OTA Center</b> fournit des outils et informations pour aider à rendre votre expérience avec Euphoria-OS encore meilleure. Mettre à niveau vers la dernière version de notre ROM avec <b>OTACenter</b>.</string>
+    <string name="donate_summary">Soutenir le développement en faisant un don</string>
+    <string name="center_summary"><b>OTA Center</b> fournit des outils et informations pour aider à rendre votre expérience avec la Chroma encore meilleure. Mettre à niveau vers la dernière version de notre ROM avec <b>OTACenter</b>.</string>
     <string name="bugreport_title">Rapport de Bug</string>
     <string name="bugreport_summary">Créer un rapport complet de bug</string>
-    <string name="report_infosuccess">Crée un rapport système, fournir à Euphoria-OS. Vous pouvez trouver le fichier Zip sur votre carte SD dans un répertoire appelé \"BugReport\".</string>
-    <string name="report_infofail">Echec de la création du rapport de bug, veuillez essayer à nouveau.</string>
-
-    <string name="about_home_url"><a href="http://mahdi-rom.com/">Euphoria-OS</a></string>
+    <string name="report_infosuccess">Crée un rapport système, fournir à Chroma-AOSP. Vous pouvez trouver le fichier Zip sur votre carte SD dans un répertoire appelé \"BugReport\".</string>
+    <string name="report_infofail">Échec de la création du rapport de bug, veuillez essayer à nouveau.</string>
+    <string name="about_home_url"><a href="http://zephik.com/">Chroma</a></string>
     <string name="about_ota">OTACenter vous permet de gérer facilement\n votre Rom !</string>
-    <string name="about_copyright">\u00A9 Copyright Slimroms 2013 modifié pour Euphoria-OS</string>
+    <string name="about_copyright">\u00A9 Copyright Slimroms 2013 modifié pour la Chroma</string>
     <string name="about_version">OTACenter 2.0</string>
-    <string name="about_contact">Contact us at Mahdi.Rom@gmail.com</string>
+    <string name="about_contact">Me contacter par mail zephik@gmail.com</string>
     <string name="about_contact_text">Dites-nous ce que vous pensez\nou nous informer de d\'un bug ou un problème</string>
-    <string name="about_license">Open source licenses</string>
+    <string name="about_license">Licences Open source</string>
     <string name="about_license_text">OTACenter app:</string>
     <string name="about_license_url"><a href="http://otaslim.slimroms.net/license.htm">gpl(2)</a></string>
 
@@ -105,7 +110,7 @@
     <string name="sizer_message_startup">Cet outil vous permet de supprimer des applications système. À utiliser avec prudence et seulement supprimer des applications que vous connaissez.</string>
     <string name="cancel">Annuler</string>
     <string name="sizer_message_delete">Êtes-vous sûr de vouloir supprimer cette application ?</string>
-    <string name="sizer_message_delete_multi_one">Etes-vous sûr que vous voulez supprimer l\'application sélectionnée ?</string>
+    <string name="sizer_message_delete_multi_one">Êtes-vous sûr que vous voulez supprimer l\'application sélectionnée ?</string>
     <string name="sizer_message_delete_multi">Êtes-vous sûr de vouloir supprimer les applications sélectionnées ?</string>
     <string name="btn_delete">Supprimer des applications sélectionnées maintenant !</string>
     <string name="delete_progress_title">Suppression</string>
