@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2013 Mahdi-ROM
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+-->
+
+<resources>
+    <!-- Main strings -->
+    <string name="app_name">Aggiornamenti OTA</string>
+    <string name="menu_settings">Impostazioni</string>
+    <string name="device_title">Dispostivo</string>
+    <string name="device_name_title">Nome:</string>
+    <string name="codename_title">Nome in codice:</string>
+    <string name="version_title">Versione:</string>
+    <string name="file_name_title">File:</string>
+    <string name="curVer">Versione attuale</string>
+    <string name="ok">Ok</string>
+    <string name="title_update">Aggiornamento</string>
+    <string name="device_info_title">Informazioni dispostitivo</string>
+    <string name="up_to_date_title">La tua ROM è aggiornata</string>
+    <string name="no_data_title">Nessuna connessione disponibile</string>
+    <string name="error_reading_title">Impossibile leggere informazioni</string>
+    <string name="update_file_title">Aggiornamento:</string>
+    <string name="reboot">Fatto! Adesso riavvia il dispositivo</string>
+    <string name="reboot_ok">Riavvia ora</string>
+    <string name="reboot_cancel">Non riavviare</string>
+    <string name="refresh_button">Aggiorna</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Impostazioni OTA</string>    
+    <string name="update_interval_title">Controllo aggiornamenti</string>
+    <string name="update_interval_summary">Imposta l\'intervallo per il controllo automatico degli aggiornamenti</string>
+    <string name="update_interval_day">Ogni 24 ore</string>
+    <string name="update_interval_half_day">Ogni 12 ore</string>
+    <string name="update_interval_hour">Ogni ora</string>
+    <string name="update_interval_disable">Disattivato</string>
+
+    <!-- Error messages -->
+    <string name="system_prop_error">Impossibile leggere proprietà di sistema</string>
+    <string name="bad_url">Impossibile accedere all\'area download.\nPer favore informa il maintainer del tuo dispositivo!</string>
+    <string name="menu_update">Cerca aggiornamenti adesso</string>
+    <string name="toast_text">In cerca di aggiornamenti, attendere per favore...</string>
+    <string name="toast_no_data_text">Nessuna connessione disponibile. Accedi ad internet per favore</string>
+
+    <!-- Shortcut fragment -->
+    <string name="short_cut_release_title">Relativi alla ROM</string>
+    <string name="short_cut_changelog_title">Changelog</string>
+    <string name="short_cut_changelog_summary_update_available">Importante! Leggi attentamente il changelog</string>
+    <string name="short_cut_download_summary_update_available">Nuovo aggiornamento disponibile, clicca per scaricare!</string>
+    <string name="short_cut_changelog_summary">Vedi il changelog</string>
+    <string name="short_cut_additional_title">Addizionali</string>
+    <string name="short_cut_faq_title">FAQ</string>
+    <string name="short_cut_faq_summary">In arrivo!</string>
+    <string name="short_cut_news_title">Novità</string>
+    <string name="short_cut_news_summary">Leggi le ultime novità</string>
+    <string name="short_cut_download_title">Download</string>
+    <string name="short_cut_download_uptodate_summary">Scarica la versione più recente</string>
+    <string name="short_cut_download_gapps_title">Gapps</string>
+    <string name="short_cut_download_gapps_summary">Scarica le gapps più recenti</string>
+
+    <!-- URL's -->
+    <string name="download_url">http://zephik.com</string>
+    <string name="changelog_url">https://docs.google.com/document/d/1c7wNrT0khaipv-M0Z35OPQ8sxPHO-e9-Rk945fo4iJE</string>
+    <string name="xda_url">http://forum.xda-developers.com/nexus-6/development/rom-chroma-01-11-2015-t3000003/</string>
+    <string name="gapps_url">http://fitsnugly.euroskank.com/?rom=banks&amp;device=gapps</string>
+
+    <!-- Update checker -->
+    <string name="xml_url_kitkat">http://zephik.com/ota/ota_file.xml</string>
+    <string name="notification_message">Aggiornamento della ROM disponibile</string>
+
+    <!-- About -->
+    <string name="xda_title">XDA</string>
+    <string name="xda_summary">Visita il thread di XDA</string>
+    <string name="about_title">Info</string>
+    <string name="devs">Sviluppatore</string>
+    <string name="website_title">Sito web</string>
+    <string name="website_summary">Trova tutte le ultime novità qui</string>
+    <string name="donate_title">Donazione</string>
+    <string name="donate_summary">Supporta lo sviluppo donando</string>
+    <string name="center_summary">L\'app <b>Aggiornamenti OTA</b> provvede strumenti &amp; informazioni per aiutarti a rendere la tua esperienza con Chroma addirittura migliore. Aggiorna alla versione più recente della ROM con l\'app <b>Aggiornamenti OTA</b></string>
+    <string name="bugreport_title">Bugreport</string>
+    <string name="bugreport_summary">Crea una segnalazione di bug completa</string>
+    <string name="report_infosuccess">Crea una segnalazione di bug, falla avere allo sviluppatore. Puoi trovare lo zip nella tua memoria interna in una cartella chiamata \"BugReport\"</string>
+    <string name="report_infofail">Errore nella creazione della segnalazione di bug, per favore prova di nuovo</string>
+    <string name="about_home_url"><a href="http://zephik.com/">Chroma</a></string>
+    <string name="about_ota">L\'app Aggiornamenti OTA ti permette di gestire facilmente \nla tua ROM!</string>
+    <string name="about_copyright">\u00A9 Copyright Slimroms 2013 modificato per Chroma</string>
+    <string name="about_version">Aggiornamenti OTA 2.0</string>
+    <string name="about_contact">Contattaci a zephik@gmail.com</string>
+    <string name="about_contact_text">Dicci cosa ne pensi o facci sapere di un bug o un problema</string>
+    <string name="about_license">Licenze open source</string>
+    <string name="about_license_text">App Aggiornamenti OTA:</string>
+    <string name="about_license_url"><a href="http://otaslim.slimroms.net/license.htm">gpl(2)</a></string>
+
+    <!-- Sizer  -->
+    <string name="listsystem">lista</string>
+    <string name="sizer_title">App di sistema</string>
+    <string name="caution">Attenzione!</string>
+    <string name="sizer_message_startup">Questo strumento ti permette di eliminare le app di sistema. Usalo con cautela ed elimina solo le app di cui sei sicuro che possono essere eliminate senza problemi.</string>
+    <string name="cancel">Annulla</string>
+    <string name="sizer_message_delete">Sei sicuro di voler eliminare quest\'app?</string>
+    <string name="sizer_message_delete_multi_one">Sei sicuro di voler eliminare l\'app selezionata?</string>
+    <string name="sizer_message_delete_multi">Sei sicuro di voler eliminare le app selezionate?</string>
+    <string name="btn_delete">Elimina le app selezionate adesso!</string>
+    <string name="delete_progress_title">Eliminazione...</string>
+    <string name="delete_progress">L\'eliminazione dei file selezionati è in corso, attendere per favore...</string>
+    <string name="delete_success">Eliminate</string>
+    <string name="delete_fail">Impossibile eliminare</string>
+    <string name="btn_profile">Profilo</string>
+    <string name="sizer_message_sdnowrite">Impossibile scrivere sulla scheda SD</string>
+    <string name="sizer_message_sdnoread">Impossibile leggere la scheda SD</string>
+    <string name="sizer_message_filesuccess">Profilo creato</string>
+    <string name="sizer_message_filefail">Errore nella creazione del profilo</string>
+    <string name="sizer_message_noselect">Non è stato selzionato nulla</string>
+    <string name="ota_title">Aggiornamenti</string>
+</resources>
